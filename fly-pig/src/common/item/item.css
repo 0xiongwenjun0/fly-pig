@@ -1,0 +1,111 @@
+.item-box{
+    width: 45.6vw;
+}
+.top{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 45.6vw;
+    width: 45.6vw;
+    border-top-right-radius: 1.6vw;
+    border-top-left-radius: 1.6vw;
+    background-color: rgb(119, 177, 213);
+}
+.bottom{
+    height: 27.74vw;
+    width: 45.6vw;
+    border-bottom-left-radius: 1.6vw;
+    border-bottom-right-radius: 1.6vw;
+    background-color: #fff;
+    overflow: hidden;
+}
+.bottom .title{
+    font-size: 3.2vw;
+    margin-top: 3.2vw;
+    height: 4.4vw;
+    line-height: 4.4vw;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    width: 39.2vw;
+    margin-left: 3.2vw;
+    text-align: left;
+}
+.bottom .introduce{
+    margin-top: .8vw;
+    margin-left: 3.2vw;
+}
+.bottom .introduce span{
+    font-size: 3.47vw;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    height: 9.6vw;
+    line-height: 4.94vw;
+    width: 39.2vw;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bottom .moreinfo{
+    width: 39.2vw;
+    margin-left: 3.2vw;
+    margin-top: 1.2vw;
+    height: 4.8vw;
+}
+.bottom .moreinfo .icon{
+    font-size: 2.94vw;
+    color: rgb(255, 80, 0);
+    line-height: 2.94vw;
+    height: 2.94vw;
+    display: inline-block;
+}
+.bottom .moreinfo .price{
+    font-size: 4.27vw;
+    color: rgb(255, 80, 0);
+    line-height: 4vw;
+    height: 4vw;
+    display: inline-block;
+}
+.bottom .moreinfo .buy{
+    display: inline-block;
+    font-size: 2.94vw;
+    color: rgb(153, 153, 153);
+    margin-left: 1.07vw;
+    height: 2.94vw;
+    line-height: 2.94vw;
+}
+.bottom .moreinfo .info-box{
+    display: inline-block;
+    width: 33.34vw;
+    height: 3.74vw;
+}
+.bottom .moreinfo .more{
+    display: inline-block;
+    width: 4.8vw;
+    height: 4.8vw;
+    text-align: right;
+}
+.bottom .moreinfo .more img
+{
+    width: 3.74vw;
+    height: 1.07vw;
+    line-height: 4.8vw;
+}
+.bottom .moreinfo .like-box{
+    display: inline-block;
+    height: 6.4vw;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    border-top-left-radius: 13.34vw;
+    border-bottom-left-radius: 13.34vw;
+}
+.bottom .moreinfo .like-box span
+{
+    font-size: 2.94vw;
+    padding: 0px 1.87vw 0px 2.4vw;
+    line-height: 4vw;
+    color: rgb(102, 102, 102);
+}

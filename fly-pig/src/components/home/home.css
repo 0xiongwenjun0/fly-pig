@@ -1,0 +1,741 @@
+a{
+    text-decoration: none;
+    font:black
+}
+a:hover{
+    font:black
+}
+.space {
+    flex:1;
+}
+
+/* 业务样式 */
+.box{
+    /* height: 56.2vw; */
+    background: linear-gradient(#ffcf00,#ffb000 56.2vw,#f7f7f7 56.2vw,#f7f7f7 100%);
+}
+/* 头部标题 */
+.title-box{
+    height: 11.73vw;
+    justify-content: center center;
+    text-align: center;
+    line-height: 11.73vw;
+    vertical-align: middle;
+}
+.title-box .cell {
+    justify-content: center;
+}
+.title-box .cell img{
+    align-self: center;
+    width: 12.533vw;
+    height: 5.333vw;
+    margin-bottom: 5px;
+    z-index: 10;
+}
+.title-box .user{
+   position: absolute;
+   display: flex;
+   top: 3vw;
+   right: 3.2vw;
+}
+.title-box .user img
+{
+    width: 6.4vw;
+    height: 6.4vw;
+    color: rgb(61, 61, 61);
+}
+/* 搜索栏 */
+.search{
+    height: 8.54vw;
+    vertical-align: middle;
+    line-height: 8.54vw;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 3.2vw;
+    margin-right: 3.2vw;
+    padding-left: 3.2vw;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    justify-content: center center;
+}
+.search img{
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    margin: 0 5px 5px auto;
+}
+/* 热搜 */
+.hots{
+    color: #fff;
+    font-size: 3.466vw;
+}
+.hots .hot-connect{
+    padding: 0px 3.2vw 0px 4.8vw;
+    /* overflow: hidden; */
+    height: 6.4vw;
+    margin-bottom: 3.2vw;
+    margin-top: 3.2vw;
+}
+.hots .hot-info{
+    height: 100%;
+    color: #fff;
+    margin-left: 8px;
+    border-radius: 10px;
+    padding: 0 6px;
+    background-color: #ffcd33;
+}
+/* 滑动窗口 */
+.ant-carousel{
+    position: absolute;
+    width: 93.6vw;
+    height: 29.4vw;
+    overflow: hidden;
+    right: 3.2vw;
+    border-radius: 5px;
+}
+.slick-slider{
+    height: 100%;
+    border-radius: 5px;
+}
+.slick-slider .slick-list{
+    height: 100%;
+    border-radius: 5px;
+}
+.swiper-pic{
+    height: 29.4vw;
+    width: 93.6vw;
+    border-radius: 5px;
+}
+ul.slick-dots{
+    position: absolute;
+    left: 29.4vw;
+    height: 6px !important;
+}
+.ant-carousel .slick-dots li{
+    width: 6px !important;
+    height: 6px !important;
+    border-radius:3px !important;
+    background-color:#fff;
+}
+.ant-carousel .slick-dots li button{
+    width: 6px !important;
+    height: 6px !important;
+    border-radius:3px !important;
+    opacity: 0 !important;
+}
+.slick-active{
+    background-color: #ffd62b !important;
+}
+/* 主体选项栏 */
+.entry{
+    margin-top: 32.6vw;
+    height: 22.4vw;
+    padding-top: 3.2vw;
+    padding-bottom: 3.2vw;
+    text-align: center;
+}
+.channel-line-box{
+    width: 93.6vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+}
+.channel-box{
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    text-decoration: none;
+}
+.channel-box img{
+    width: 18.667vw;
+    height: 11.2vw;
+    margin-top: 1.6vw;
+}
+.channel-box span{
+    display: block;
+    color: black;
+    height: 3.2vw;
+    line-height: 3.2vw;
+    font-size: 3.2vw;
+}
+/* 功能 */
+.all-func-box{
+    width: 93.334vw;
+    display: flex;
+    /* border-right: 1px transparent;
+    border-bottom: 1px transparent; */
+    box-sizing: border-box;
+    flex-flow:row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 1.6vw;
+    border-top-right-radius: 1.6vw;
+    /* border-right: 1px solid #fff; */
+}
+
+.all-func-box .func-box{
+    /* border: 1px solid rgb(244, 244, 244); */
+    border-right: 1px solid rgb(244, 244, 244);
+    border-bottom: 1px solid rgb(244, 244, 244);
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255,255,255);
+    width: 23.2vw;
+    height: 15.74vw;
+    text-align: center;
+}
+.bdra_0{
+    border-top-left-radius: 1.6vw;
+    border-left: 1px solid #fff;
+}
+.bdra_4{
+    border-left: 1px solid #fff;
+}
+.bdra_3{
+    border-top-right-radius: 1.6vw;
+    border-right:0 !important;
+}
+.bdra_7{
+    border-right:0 !important;
+}
+.all-func-box .func-box .maintext{
+    margin-top: 2.54vw;
+    color: #333;
+    height: 6.667vw;
+    line-height: 6.667vw;
+    font-size: 3.74vw;
+}
+.all-func-box .func-box .connect{
+    color: #666;
+    font-size: 2.94vw;
+    height: 4.8vw;
+    line-height: 4.8vw;
+    padding-left: 2.14vw;
+    padding-right: 2.14vw;
+}
+/* 里程和签到 */
+.welfareandsign{
+    box-sizing: border-box;
+    width: 93.334vw ;
+    height: 13.2vw;
+    line-height: 13.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-bottom-left-radius: 1.6vw;
+    border-bottom-right-radius: 1.6vw;
+    color: black;
+}
+.welfareandsign .welfare{
+    width: 57.067vw;
+    height: 8vw;
+    color: black;
+}
+.welfareandsign .welfare .pic{
+    width: 20.534vw;
+    height: 6.667vw;
+    margin-left: 3.2vw;
+}
+.welfareandsign .welfare .text{
+    font-size: 3.4667vw;
+    display: inline-block;
+    width: 29.334vw;
+    height: 8vw;
+    line-height: 8vw;
+    margin-left: 2.934vw;
+}
+.welfareandsign .sign{
+    width: 36.5334vw;
+    height: 8vw;
+    line-height: 8vw;
+    border-left: 1px solid #f4f4f4;
+    color: black;
+}
+.welfareandsign .sign .pic{
+    width: 14.934vw;
+    height: 6.67vw;
+    margin-left: 2.934vw;
+}
+.welfareandsign .sign .text{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 3.467vw;
+    height: 8vw;
+    line-height: 8vw;
+    margin-left: 2.934vw;
+    width: 14.134vw;
+}
+/* 下载app */
+.downloadapp{
+    height: 19.2vw;
+    line-height: 19.2vw;
+    width: 93.6vw;
+    margin-left: 3.2vw;
+    margin-top: 3.2vw;
+    background-color: #fff;  
+    border-top-left-radius: 1.6vw;
+    border-top-right-radius: 1.6vw;
+}
+.downloadapp .pic{
+    width: 12.8vw;
+    height: 12.8vw;
+    margin-left: 3.2vw;
+}
+.downloadapp .text{
+    width: 48vw;
+    display: inline-block;
+    margin-left: 3.2vw;
+    vertical-align: middle
+}
+.downloadapp .text span{
+    display: block;
+    color: black;
+}
+.downloadapp .text .maintext{
+    height: 5.6vw;
+    line-height: 5.6vw;
+    font-size: 4vw;
+    font-weight: 600;
+}
+.downloadapp .text .connect{
+    height: 4.4vw;
+    line-height: 4.4vw;
+    font-size: 3.2vw;
+}
+.downloadapp .btn{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    font-size: 3.2vw;
+    background-image: linear-gradient(to right, rgba(255, 231, 0, 0.99) 0.01%, rgba(255, 201, 0, 0.99) 100%);
+    width: 20vw;
+    height: 6.4vw;
+    line-height: 6.4vw;
+    border-radius: 50px;
+}
+/* app福利 */
+.welfaremore{
+    margin-left: 3.2vw;
+    margin-bottom: 3.2vw;
+}
+.welfare-box{
+    width: 93.6vw;
+    height: 41.6vw;
+    padding-top: 3.2vw;
+    display: flex;
+}
+.welfare-box a{
+    flex: 1;
+    color: black;
+    text-align: center;
+}
+.welfare-box .title{
+    height: 5.6vw;
+    line-height: 5.6vw;
+    margin-bottom: 1.6vw;
+    font-size: 4vw;
+    font-weight: 600;
+}
+.welfare-box .text_1{
+    font-size: 2.934vw;
+    height: 4vw;
+    line-height: 4vw;
+}
+.welfare-box .text_2{
+    font-size: 2.934vw;
+    height: 4vw;
+    line-height: 4vw;
+}
+/* 旅游热点 */
+.traveller-hots{
+    overflow: hidden;
+}
+.traveller-box{
+    display: flex;
+    width: 93.6vw;
+    height: 62.134vw;
+    margin-top: 3.2vw;
+    margin-bottom: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.575vw;
+    overflow: hidden;
+}
+.traveller-box .left{
+    flex: 1;
+    width: 46.8vw;
+    height: 100%;
+}
+.traveller-box .left .shadow{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+.traveller-box .right{
+    flex: 1;
+    width: 46.8vw;
+    height: 100%;
+}
+.traveller-box .left .title{
+    display: flex;
+    height: 11.74vw;
+    line-height: 11.74vw;
+    
+}
+.traveller-box .left .title img{
+    width: 13.34vw;
+    height: 4.53vw;
+    margin-left: 2.4vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.traveller-box .left .title .date{
+    display: inline;
+    padding: 2.5vw 0;
+    width: 12vw;
+}
+.traveller-box .left .title .date div{
+    display: block;
+    height: 3.74vw;
+    line-height: 3.74vw;
+    font-size: 3.74vw;
+    color: rgb(255, 201, 0);
+}
+.traveller-box .left .connect{
+    font-size: 3.74vw;
+    width: 39.6vw;
+    line-height: 5.34vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-left: 2.4vw;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.traveller-box .left .btn{
+    background-image: linear-gradient(to right, rgb(255, 231, 0), rgb(255, 201, 0));
+    border-radius: 1.6vw;
+    padding-left: 1.6vw;
+    padding-right: 1.6vw;
+    height: 5.87vw;
+    width: 22.6vw;
+    text-overflow: ellipsis;
+    margin-top: 2.4vw;
+    margin-left: 2.4vw;
+}
+.traveller-box .left .btn .number{
+    display: inline-block;
+    font-size: 3.73vw;
+    font-weight: bold;
+    height: 3.73vw;
+    line-height: 3.73vw;
+    color: rgb(51, 51, 51);
+    margin-bottom: 1.07vw;
+}
+.traveller-box .left .btn .next{
+    display: inline-block;
+    font-size: 2.4vw;
+    height: 2.4vw;
+    line-height: 2.4vw;
+    color: rgb(51, 51, 51);
+    margin-bottom: 1.34vw;
+}
+
+.traveller-box .right .top {
+    height: 27.47vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.traveller-box .right .top .supersell{
+    width: 14.267vw;
+    height: 4.67vw;
+    margin-top: 3.6vw;
+    margin-left: 2.54vw;
+    margin-bottom: 3.2vw;
+}
+.traveller-box .right .top  .ticket{
+    height: 4.94vw;
+    line-height:4.94vw;;
+    margin-left: 2.4vw;
+    font-size: 3.47vw;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+}
+.traveller-box .right  .ticket .text{
+    font-size: 2.67vw;
+    color: rgb(102, 102, 102);
+    height: 3.74vw;
+    line-height: 3.74vw;
+    margin-left: .8vw;
+    font-weight: normal;
+    vertical-align: text-top
+}
+.traveller-box .right .ticket .planeicon{
+    width: 3.6vw;
+    height: 3.47vw;
+    margin-left: 1.07vw;
+    margin-right: 1.07vw; 
+    vertical-align: initial
+}
+.traveller-box .right .btn-box
+{
+    background-color: rgb(255, 80, 0);
+    border-radius: 1.6vw;
+    padding-left: .8vw;
+    padding-right: 1.6vw;
+    height: 5.87vw;
+    text-overflow: ellipsis;
+    margin-top: 2.4vw;
+    margin-left: 2.4vw;
+    width: 22.6vw;
+    color: #fff;
+    font-size: 2.4vw;
+}
+.traveller-box .right .btn-box{
+    background-color: rgb(255, 80, 0);
+    border-radius: 1.6vw;
+    padding-left: .8vw;
+    padding-right: 1.6vw;
+    padding-top: 1vw;
+    height: 5.87vw;
+    text-overflow: ellipsis;
+    margin-top: 2.4vw;
+    margin-left: 2.4vw;
+}
+.traveller-box .right .btn-box .number{
+    display: inline-block;
+    font-size: 3.74vw;
+    height: 3.74vw;
+    line-height: 3.74vw;
+}
+.traveller-box .right .btn-box .discount{
+    display: inline-block;
+    margin-left: 1vw;
+}
+.traveller-box .right .bottom{
+    height: 34.67vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    overflow: hidden;
+}
+.traveller-box .right .bottom .address
+{
+    font-size: 3.74vw;
+    font-weight: 600;
+    height: 5.34vw;
+    line-height: 5.34vw;
+    margin-left: 2.4vw;
+    margin-top: 3.2vw;
+}
+/* 当季旅行地 */
+.travel-title-box .title{
+    display: flex;
+    margin-bottom: 3.2vw;
+}
+.travel-title-box .title .text{
+    font-size: 6.4vw;
+    font-weight: 600;
+    margin-left: 3.2vw;
+    color: rgb(68, 68, 68);
+}
+.travel-title-box .title .more
+{
+    display: inline;
+    margin-right: 3.2vw;
+    align-items: center;
+    vertical-align: middle;
+}
+.travel-title-box .title .more span{
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+    font-size: 3.47vw;
+}
+.travel-title-box .title .more img{
+    width: 3.2vw;
+    height: 3.2vw;
+}
+.destination-box .destination-line{
+    display: flex;
+    height: 28.8vw;
+    line-height: 28.8vw;
+    padding-left: 3.2vw;
+    margin-bottom: 8vw;
+    overflow-x: scroll;
+}
+.destination-box .destination{
+    display: inline-block;
+    height: 28.8vw;
+    width: 28.8vw;
+    line-height: 28.8vw;
+    margin-right: 2.4vw;
+    border-radius: 1.6vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.destination-box .destination-shadow{
+    overflow: hidden;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+}
+.destination-box .destination .text{
+    font-size: 5.34vw;
+    font-weight: 600;
+    line-height: 7.47vw;
+    height: 7.47vw;
+    color: rgb(255, 255, 255);
+    margin-top: 19.2vw;
+    margin-left: 3.2vw;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* 旅行主题 */
+.oneline{
+    margin-left: 3.2vw;
+    margin-bottom: 2.4vw;
+}
+.twoline{
+    margin-left: 3.2vw;
+    margin-bottom: 28.8px;
+}
+.twopart{
+    display: inline-block;
+    position: relative;
+    height: 41.07vw;
+    margin-right: 2.27vw;
+    border-radius: 1.6vw;
+    width: 61.6vw;
+    overflow: hidden;
+}
+.onepart{
+    display: inline-block;
+    position: relative;
+    height: 41.07vw;
+    margin-right: 2.27vw;
+    border-radius: 1.6vw;
+    width: 29.6vw;
+    overflow: hidden;
+}
+.oneline .shadow{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.twoline .shadow{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.connectbox{
+    position: absolute;
+    left: 2.4vw;
+    bottom: 2.4vw;
+    color:#fff;
+}
+.connectbox .title{
+    font-size: 4.27vw;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    height: 6vw;
+    line-height: 6vw;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.connectbox .connect{
+    font-size: 3.2vw;
+    color: rgb(255, 255, 255);
+    height: 4.4vw;
+    line-height: 4.4vw;
+    text-overflow: ellipsis;
+    margin-top: .8vw;
+    overflow: hidden;
+}
+/* 旅行直播 */
+.live-box{
+    margin-left: 11.52px;
+    margin-bottom: 28.8px;
+}
+.live-box .live{
+    display: inline-block;
+    position: relative;
+    height: 122.88px;
+    margin-right: 8.64px;
+    border-radius: 5.76px;
+    width: 164.16px;
+    overflow: hidden;
+}
+.live-box .live .shadow{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+.live-box .live .connect-box
+{
+    position: absolute;
+    border-radius: 5.76px;
+    -webkit-box-pack: end;
+    left: 11.52px;
+    bottom: 11.52px;
+    overflow: hidden;
+}
+.live-box .live .connect-box .title{
+    font-size: 13.44px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    height: 21.6px;
+    line-height: 21.6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.live-box .live .connect-box .connect{
+    margin-top: 5.76px;
+    height: 17.28px;
+    line-height: 17.28px;
+    border-radius: 8.64px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.live-box .live .connect-box .connect .pic{
+    display: inline-block;
+    width: 51.84px;
+    height: 17.28px;
+    line-height: 17.28px;
+    vertical-align: inherit;
+}
+.live-box .live .connect-box .connect .number
+{
+    display: inline-block;
+    font-size: 10.56px;
+    color: rgb(255, 255, 255);
+    padding-left: 5.76px;
+    padding-right: 5.76px;
+    vertical-align: top
+}
+/* 猜你喜欢 */
+.title-x{
+    margin-bottom: 3.2vw;
+    display: flex;
+}
+.title-x span{
+    display: inline-block;
+}
+.title-x .main{
+    font-size: 6.4vw;
+    font-weight: 600;
+    margin-left: 3.2vw;
+    color: rgb(51, 51, 51);
+}
+.title-x .andmore
+{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 3.47vw;
+    align-items: center;
+    margin-right: 3.2vw;
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+}

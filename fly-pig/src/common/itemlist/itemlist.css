@@ -1,0 +1,12 @@
+.bothitem-box{
+    margin-left: 3.2vw;
+    margin-right: 3.2vw;
+}
+.bothitem-box .left{
+    display: inline-block;
+}
+.bothitem-box .right
+{
+    display: inline-block;
+    margin-left: 2.4vw;
+}

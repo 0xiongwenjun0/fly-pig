@@ -1,0 +1,129 @@
+.ticketbox
+    padding: 0 15px
+    .tripbox
+        display flex
+        .index
+            margin-top: 15px
+            margin-right: 10px
+            display: inline-block
+            height: 16px
+            width: 16px
+            line-height: 16px
+            text-align: center
+            color: #e90
+            border: 1px solid #e90
+            vertical-align: middle
+            font-size: 12px
+            span 
+                display block
+                height 15px
+                line-height 15px
+        .trip
+            flex 1
+            display inline-block
+            .addressline
+                height: 13.89vw
+                font-size: 5vw
+                display flex
+                vertical-align: middle
+            .comeaddress,.toaddress 
+                display inline-block
+                flex 1
+                height 100%
+                line-height 13.89vw
+                margin-top auto
+                margin-bottom auto
+                border-bottom 1px solid #eeeeee
+                transition: 1s liner
+            .changeimg
+                display inline-block
+                width 54px
+                line-height 50px
+                text-align center
+                vertical-align: middle
+                .pic
+                    width 27px
+                    height 27px
+            .toaddress 
+                text-align: right 
+        .dateline
+            .line
+                height: 53px;
+                line-height 53px
+                font-size: 18px;
+                position relative
+                border-bottom 1px solid #eee
+                z-index: 10
+                .date
+                    display inline-block
+                    font-weight 500
+                    z-index: -1
+                .week
+                    display inline-block
+                    font-size: 12px;
+                    color: #ccc;
+                    margin-left: 5px;
+                    z-index: -1
+    .addtrip-box
+        margin-top: 10px;
+        height: 30px;
+        line-height 30px
+        display flex
+        .addbtn
+            display inline-block
+            font-size: 15px;
+            color: #e90;
+            .add::before
+                content: "";
+                margin-top -2px
+                margin-right: 10px;
+                height: 18px;
+                width: 18px;
+                display: inline-block;
+                vertical-align: middle;
+                background 50% no-repeat  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkBAMAAAATLoWrAAAAD1BMVEXumQDumQDumQD////umQDXzCqiAAAAA3RSTlPmSklSjzZ3AAAAMklEQVQoz2NQcEEDTAws6EIODC7GaMBlAIVcXAZYyAQWMM5kCw0uDw141GJJcgLoQowAd4uM/JkInL0AAAAASUVORK5CYII=")
+                background-size: 18px;
+        .space
+            display inline-block
+            flex 1
+        .promptbox
+            display inline-block
+            font-size: 12px;
+            color: #e90;
+            .prompt
+                display block
+                text-align right
+            .promptconnect
+                ul
+                    background: rgba(0,0,0,.8);
+                    padding: 10px;
+                    line-height: 1.5;
+                    border-radius: 3px;
+                    color: #e0e0e0;
+                    font-size: 12px;
+                    position absolute
+                    right 1vw
+                    li
+                        z-index: 10
+    .memberchoose
+        margin: 0 -24px;
+        padding: 0 24px;
+        border-top: 12px solid #f2f3f4;
+        margin-top: 12px; 
+        box-sizing content-box
+        height: 50px;
+        line-height: 50px;
+        .memberbox
+            border-bottom 1px solid #eee
+            display flex
+            .space
+                flex 1
+            .selecttank
+                font-size: 16px;
+                color: #333;
+            .selecttype
+                font-size: 16px;
+                color: #333;
+                .number
+                    font-weight: 700;
+                    padding: 0 3px 0 9px;
